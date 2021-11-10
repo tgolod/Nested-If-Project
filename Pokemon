@@ -1,0 +1,25 @@
+#What Legendary Pokemon Are You?
+#Created by Tyler Golod
+
+#Initialization
+print("Welcome to the Legendary Pokemon Name Generator! Here you will find out what legendary pokemon you are! You will be asked a series of questions, and then you'll know what Legendary Pokemon you are!")
+
+#Functions
+
+
+#Main
+x = input('Orange or Blue?')
+if x == ' Orange':
+    print('Fire or Ground?')
+    elif x == ' Blue':
+        print('Water or Flying?')
+
+if x == 'Fire':
+    print('Up or Down?')
+elif x == ' Ground':
+    print('Claws or Cloud?')
+    
+if x == 'Water':
+    print('Monster or Fantasy?')
+elif x == 'Flying':
+    print('Light or Dark?')
