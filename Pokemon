@@ -2,24 +2,61 @@
 #Created by Tyler Golod
 
 #Initialization
-print("Welcome to the Legendary Pokemon Name Generator! Here you will find out what legendary pokemon you are! You will be asked a series of questions, and then you'll know what Legendary Pokemon you are!")
-
+print("Welcome to the Legendary Pokemon Name Generator!")
+print("Here you will find out what legendary pokemon you are!")
+print("You will be asked a series of questions, and then you'll know what Legendary Pokemon you are!")
 #Functions
 
 
 #Main
-x = input('Orange or Blue?')
-if x == ' Orange':
-    print('Fire or Ground?')
-    elif x == ' Blue':
-        print('Water or Flying?')
+x = input("water or flying?")
+if x == 'water':
+    x = input("monster or fantasy?")
+    if x == 'monster':
+         print("Your Legendary Pokemon is Kyogre!")
+    else:
+         print("Your Legendary Pokemon is Tapu Fini!")
+    if x == 'flying':
+         x = input("light or dark?")
+         if x == 'light':
+              x = input("Your Legendary Pokemon is Lugia!")
+         else:
+             print("Your Legendary Pokemon is Yveltal!")
 
-if x == 'Fire':
-    print('Up or Down?')
-elif x == ' Ground':
-    print('Claws or Cloud?')
+x = input('orange or blue?')
+if x == 'orange':
+    x = input("ground or fire?")
+    if x == 'ground':
+        x = input("claws or cloud?")
+        if x == 'claws':
+            print("Your Legendary Pokemon is Groudon!")
+        else:
+            print("Your Legendary Pokemon is Landorus!")
+        if x == 'fire':
+            x = input("up or down?")
+            if x == 'up':
+                print("Your Legendary Pokemon is Ho-oh!")
+            else:
+                print("Your Legendary Pokemon is Entei!")
+            if x == 'blue':
+                x = input("water or flying?")
+                if x == 'water':
+                    x = input("monster or fantasy?")
+                    if x == 'monster':
+                        print("Your Legendary Pokemon is Kyogre!")
+                    else:
+                        print("Your Legendary Pokemon is Tapu Fini!")
+                    if x == 'flying':
+                        x = input("light or dark?")
+                        if x == 'light':
+                            x = input("Your Legendary Pokemon is Lugia!")
+                        else:
+                            print("Your Legendary Pokemon is Yveltal!")
+                        
     
-if x == 'Water':
-    print('Monster or Fantasy?')
-elif x == 'Flying':
-    print('Light or Dark?')
+
+
+    
+
+
+
